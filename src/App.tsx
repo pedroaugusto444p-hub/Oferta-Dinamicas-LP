@@ -251,9 +251,10 @@ export default function App() {
           <div className="mb-10 w-full sm:w-auto">
             <Button 
               href="#pricing"
+              variant="secondary"
               className="group uppercase !px-12 w-full sm:w-auto !rounded-full !text-base shadow-2xl"
             >
-              Quiero el Acceso Ahora
+              EMPEZAR A USAR EL MATERIAL YA
             </Button>
           </div>
 
@@ -284,8 +285,12 @@ export default function App() {
             Transforma tus clases de Inglés en experiencias donde tus alumnos realmente hablen – sin pasar horas planificando desde cero.
           </p>
 
-          <Button variant="primary" className="uppercase !text-base tracking-wide w-full sm:w-auto">
-            QUIERO MIS DINÁMICAS LISTAS
+          <Button 
+            href="#pricing"
+            variant="secondary" 
+            className="uppercase !text-base tracking-wide w-full sm:w-auto"
+          >
+            EMPEZAR A USAR EL MATERIAL YA
           </Button>
         </section>
 
@@ -485,19 +490,10 @@ export default function App() {
 
               <div className="text-center px-4">
                 <div className="flex flex-col items-center gap-6">
-                  <div className="flex items-center gap-4 bg-red-50 px-6 py-3 rounded-2xl border border-red-100">
-                    <div className="flex items-center gap-2 text-red-600 font-bold text-xs uppercase tracking-widest">
-                      <Clock size={16} /> OFERTA DE VUELTA AL COLE EXPIRA EN:
-                    </div>
-                    <div className="bg-red-600 text-white px-3 py-1 rounded-lg font-mono font-bold text-lg min-w-[80px]">
-                      {formatTime(timeLeft)}
-                    </div>
-                  </div>
-
                   <Button 
-                    variant="primary" 
-                    href="https://pay.hotmart.com/O105693747U?checkoutMode=10"
-                    className="uppercase tracking-tight w-full sm:w-auto !py-6 !text-lg !rounded-full shadow-2xl shadow-emerald-200 whitespace-normal text-center leading-none"
+                    variant="secondary" 
+                    href="#pricing"
+                    className="uppercase tracking-tight w-full sm:w-auto !py-6 !text-lg !rounded-full shadow-2xl shadow-cyan-200 whitespace-normal text-center leading-none max-w-sm"
                   >
                     EMPEZAR A USAR EL MATERIAL YA
                   </Button>
